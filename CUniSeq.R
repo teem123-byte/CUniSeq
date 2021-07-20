@@ -6,7 +6,7 @@ library(msa)
 library(DECIPHER)
 library(plyr)
 
-genes<-readDNAStringSet('/Users/hamiji/Desktop/Convictupdates/uniques/targetDB_nt_cons.fasta')
+genes<-readDNAStringSet('/Users/hamiji/Desktop/sequences.fasta')
 genes_compare<-genes
 CS<-data.frame()
 for(j in 1:length(genes_compare)){
